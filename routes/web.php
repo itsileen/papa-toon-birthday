@@ -5,11 +5,7 @@ use App\Models\Wish;
 use App\Http\Controllers\WishController;
 
 Route::get('/', function () {
-
-    $wishes = Wish::latest()->get();
-
-    return view('home', compact('wishes'));
-
+    return view('home');
 });
 
 Route::view('/calendar', 'calendar');

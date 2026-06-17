@@ -72,7 +72,7 @@
                 id="videoCounter"
                 class="text-gray-500">
 
-                Video 1 dari 13
+                Video 1 dari 14
 
             </p>
 
@@ -92,6 +92,7 @@
             <span class="dot" onclick="goToVideo(10)"></span>
             <span class="dot" onclick="goToVideo(11)"></span>
             <span class="dot" onclick="goToVideo(12)"></span>
+            <span class="dot" onclick="goToVideo(13)"></span>
         </div>
 
         <div
@@ -196,7 +197,8 @@ const videos = [
     "/videos/video10.mp4",
     "/videos/video11.mp4",
     "/videos/video12.mp4",
-    "/videos/video13.mp4"
+    "/videos/video13.mp4",
+    "/videos/video14.mp4"
 ];
 
 const titles = [
@@ -212,6 +214,7 @@ const titles = [
     "CEO Perusahaan & Ibu Komisaris",
     "Durasi Pendek, Sayangnya Panjang",
     "Instruksi Hari Ini: Fokus Kiri Bawah",
+    "Ibu Maail dan Kedua Cucu",
     "Patch Notes dari Sherry"
 ];
 

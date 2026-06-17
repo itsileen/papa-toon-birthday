@@ -5,7 +5,11 @@ use App\Models\Wish;
 use App\Http\Controllers\WishController;
 
 Route::get('/', function () {
-    return 'Halo Railway';
+
+    $wishes = Wish::latest()->get();
+
+    return view('home', compact('wishes'));
+
 });
 
 Route::view('/calendar', 'calendar');

@@ -42,10 +42,41 @@
           tapi cerita, tawa, dan kenangan akan tetap ada.
         </p>
 
+       <!-- MOBILE GALLERY -->
+
+        <div class="grid grid-cols-2 gap-4 md:hidden mb-12">
+
+            <img src="/images/closing/1.jpeg"
+                onclick="openModal(this.src)"
+                class="rounded-2xl shadow-lg cursor-pointer">
+
+            <img src="/images/closing/2.jpeg"
+                onclick="openModal(this.src)"
+                class="rounded-2xl shadow-lg cursor-pointer">
+
+            <img src="/images/closing/3.jpeg"
+                onclick="openModal(this.src)"
+                class="rounded-2xl shadow-lg cursor-pointer">
+
+            <img src="/images/family.jpeg"
+                onclick="openModal(this.src)"
+                class="rounded-2xl shadow-lg cursor-pointer">
+
+            <img src="/images/closing/4.jpeg"
+                onclick="openModal(this.src)"
+                class="rounded-2xl shadow-lg cursor-pointer">
+
+            <img src="/images/closing/5.jpeg"
+                onclick="openModal(this.src)"
+                class="rounded-2xl shadow-lg cursor-pointer">
+
+            <img src="/images/closing/6.jpeg"
+                onclick="openModal(this.src)"
+                class="rounded-2xl shadow-lg cursor-pointer">
+
+        </div>
         <!-- WALL OF MEMORIES -->
-
-        <div class="relative h-[1200px] md:h-[980px] mb-12">
-
+        <div class="relative h-[1200px] md:h-[980px] mb-12 hidden md:block">
             <!-- FOTO 1 -->
             <div class="absolute top-0 left-0 bg-white p-3 rounded-2xl shadow-xl rotate-[-7deg] hover:scale-105 transition duration-300">
                 <img
